@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<br>
+<h3 align="center">
+    Sample Data of Elon Musk's Latest Tweets.
+</h3>
+<p align="center">
+    Here we are trying to show a sample collection of Elon Musk's Tweets and a decision made using them to see whether <br>
+    we are able to do a sentiment analysis of them and make a decision about whether to buy or sell or hold the stock. <br>
+    So in this we are trying to see a sample if Elon Musk's latest tweets and a decision made on them using sentiment analysis.
+</p>
+
+<table>
+  <tr>
+    <h1>
+        <!--Displaying the converted table-->
+        {% for table in tables %}
+        <h2>{{titles[loop.Tweet_number]}}</h2>
+        {{ table|safe }}
+        {% endfor %}
+    </h1>
+</table>
+{% endblock content %}

@@ -1,0 +1,10 @@
+flask
+pandas
+json
+tweepy(v4.8.0)
+configparser
+re
+textblob
+csv
+configparser
+matplotlib

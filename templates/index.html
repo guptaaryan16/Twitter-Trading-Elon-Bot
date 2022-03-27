@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2> Twitter Trading Python Bot </h2>
+<br>
+<div>
+    <img src="/static/bot-pick.png" align="right">
+
+    <p>
+    This is a flask site created for displaying the Twitter bot that trades using Elon musk's tweets. It is created
+    using the tweepy library and Text-Blob library to do live sentiment analysis of Elon's tweets and provide information
+    about whether to sell, hold or buy stock of Tesla using sentiment of tweets' contents.
+</p>
+
+<p>
+    It is a very interesting setup, and we are going to see what trades it will make using this flask front-end.
+    Now the more specific things are available in the different sections of the tabs. You can go to them one-by-one
+    and explore the different aspects of this project and dive the analysis done by them.
+</p>
+<p>
+    We are also trying to integrate an API which can understand this information and make trades using Elon Musk's
+    tweets using sites like ZeroDha and CoinBase Api.
+</p>
+</div>
+<br>
+<br><br>
+<p align="right">Source: Adobe Stock images</p>
+
+<div>
+    <h2>
+        Import Note for Users:
+    </h2>
+    <p>
+        This site is made as an educational project for SDSLabs Makers Event. The information provided on this site
+        is obtained from live tweets of users and the analysis is not verified. So any loss or gain made by investment
+        or trade using information from this site is not a responsibility of the developer or any contributor to this
+        project. So do not use this information for any commercial purposes.
+    </p>
+</div>
+{% endblock content %}
