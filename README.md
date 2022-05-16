@@ -12,7 +12,7 @@ This is a flask based web application designed to show the sentiment analysis do
 - configparser
 # Usage
 - For using this you need to generate a twitter developer account request through https://developer.twitter.com and then generate a new API project. Then you will get access to API keys and TOKEN keys. Now you need to enter this information in the congig.ini file present in the sentiment-analyser directory.
-- Once hat is done you just need to run sentiment_analysis.py and all the information will get stored in trade_data.csv file.
+- Once that is done you just need to run sentiment_analysis.py and all the information will get stored in trade_data.csv file.
 - Now you can see the information available on the Flask website by running app.py file (possibly on another IDE).
 # About the project
 This project involves taking data from twitter using Tweepy library from python and then analysing it from TextBlob library and then making analysis of whether to buy, sell or hold the stock. This project is made as part of the MAKERS assignment of SDSLabs, a campus group at IIT Roorkee.
